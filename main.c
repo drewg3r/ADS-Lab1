@@ -29,7 +29,7 @@ int main(){
 
     // first condition
     if (((x >= 0) && (x <= 8)) || (x >= 16)) {
-        y = (-3)*x*2/5+9;
+        y = (-3)*x*x/5+9;
     } else {
         // second condition
         if (x < -1){

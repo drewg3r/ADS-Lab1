@@ -29,9 +29,9 @@ int main(){
 
     if (x >= 0){
         if (x <= 8){
-            y = (-3)*x*2/5+9;
+            y = (-3)*x*x/5+9;
         } else if (x >= 16){
-            y = (-3)*x*2/5+9;
+            y = (-3)*x*x/5+9;
         } else {
             printf("Invalid input. x should be:\n");
             printf(" - lower than (-1)\n");
